@@ -1,66 +1,65 @@
-Jogo de Batalha RPG - Código Python - (https://github.com/gabrieltiberio)
+# Jogo de Batalha RPG - Código Python - (https://github.com/gabrieltiberio)
 
-Descrição:
-Este é um jogo de batalha RPG simples desenvolvido em Python. O jogador enfrenta uma série de NPCs (orcs) em batalhas sequenciais, com o objetivo de vencer um número específico de batalhas para ser declarado o vencedor. O código cuida da criação e gerenciamento de jogadores e NPCs, mecânicas de batalha, e evolução do jogador conforme ele ganha experiência. A versão atualizada inclui funções simplificadas e uma estrutura mais limpa para melhor legibilidade.
+### Descrição:
+Este é um jogo de batalha RPG simples desenvolvido em Python. O jogador luta contra uma série de NPCs (orcs) em batalhas sequenciais. O objetivo é vencer um número específico de batalhas para ganhar o jogo. O código inclui a criação e gerenciamento de jogadores e NPCs, mecânicas de batalha, e evolução do jogador conforme ganha experiência.
 
-Funcionalidades:
-Criação e personalização do jogador, incluindo nome, nível, HP e dano.
-Geração de NPCs (orcs) com atributos dinâmicos baseados em seus níveis.
-Sistema de batalha onde o jogador e os NPCs trocam ataques até que um dos lados seja derrotado.
-Sistema de experiência (EXP) para evolução, aumentando o nível do jogador, HP máximo e dano.
-Exibição simplificada e colorida das informações do jogador e dos NPCs durante o jogo para melhor acompanhamento dos status.
-Bibliotecas Utilizadas:
-random: Para gerar atributos aleatórios para os NPCs.
-colorama: Adiciona cor às saídas do terminal para melhorar a legibilidade.
-Como Jogar:
-Execute o script e insira o nome do jogador quando solicitado.
-O jogador participa de 5 batalhas consecutivas contra NPCs.
-O jogador deve vencer pelo menos 4 batalhas para ganhar o jogo.
-Após cada batalha, os status do jogador e dos NPCs, como HP, dano e EXP, são exibidos.
+### Funcionalidades:
+- Criação e personalização do jogador, incluindo nome, nível, pontos de vida (HP) e dano.
+- Geração de NPCs (orcs) com atributos variados e aleatórios.
+- Sistema de batalha onde o jogador e os NPCs se atacam até que um dos lados seja derrotado.
+- Sistema de experiência (EXP) e evolução do jogador com aumento de nível, HP máximo e dano.
+- Exibição clara e colorida das informações do jogador e dos NPCs durante o jogo.
 
-Modificações:
-Funções simplificadas para reset e exibição de HP.
-Estrutura mais limpa e legível, eliminando código redundante.
-Mantidas todas as funcionalidades originais com melhor desempenho e clareza.
-Autor:
-Gabriel Lourenço Tibério
-GitHub: [https://github.com/gabrieltiberio]
+### Bibliotecas Utilizadas:
+- `random`: Para gerar valores aleatórios para atributos dos NPCs.
+- `colorama`: Para adicionar cores ao texto exibido no terminal, melhorando a legibilidade.
 
-Data:
-9 de setembro de 2024
+### Como Jogar:
+1. Execute o script e insira o nome do jogador quando solicitado.
+2. O jogo inicia e o jogador enfrenta 5 batalhas contra NPCs.
+3. O objetivo é vencer pelo menos 4 batalhas para ganhar o jogo.
+4. O status do jogador e dos NPCs é exibido após cada batalha, incluindo HP, dano e EXP.
 
-Versão:
-1.1
+### Autor:
+Gabriel Tibério  
+GitHub: [https://github.com/gabrieltiberio](https://github.com/gabrieltiberio)
 
-RPG Battle Game - Python Code - (https://github.com/gabrieltiberio)
-Description:
-This is a simple RPG battle game developed in Python. The player battles a series of NPCs (orcs) in sequential rounds, aiming to win a set number of battles to be declared the winner. The code handles player and NPC creation, battle mechanics, and player evolution through experience gains. The updated version features streamlined functions and a cleaner structure for improved readability.
+### Data:
+09/09/2024
 
-Features:
-Player creation and customization, including name, level, HP, and damage.
-Randomized NPC (orcs) generation with dynamic attributes based on their level.
-Battle system where the player and NPCs exchange attacks until one side is defeated.
-Experience (EXP) system for leveling up, which increases player level, max HP, and damage.
-Simplified and colorful display of the player’s and NPC’s information during gameplay for better tracking of stats.
-Libraries Used:
-random: For generating random attributes for NPCs.
-colorama: Adds color to terminal outputs for improved readability.
-How to Play:
-Run the script and input the player's name when prompted.
-The player engages in 5 consecutive battles against NPCs.
-The player must win at least 4 battles to win the game.
-After each battle, player and NPC stats such as HP, damage, and EXP are displayed.
+### Versão:
+1.0
 
-Modifications:
-Simplified HP reset and display functions.
-Cleaner, more readable structure, eliminating redundant code.
-Retained all original functionalities with enhanced performance and clarity.
-Author:
-Gabriel Lourenço Tibério
-GitHub: [https://github.com/gabrieltiberio]
+---
 
-Date:
+# RPG Battle Game - Python Code - (https://github.com/gabrieltiberio)
+
+### Description:
+This is a simple RPG battle game developed in Python. The player fights against a series of NPCs (orcs) in sequential battles. The goal is to win a specific number of battles to win the game. The code includes creating and managing players and NPCs, battle mechanics, and evolving the player as they gain experience.
+
+### Features:
+- Player creation and customization, including name, level, health points (HP), and damage.
+- NPC (orcs) generation with varied and random attributes.
+- Battle system where the player and NPCs attack each other until one side is defeated.
+- Experience (EXP) system and player evolution, increasing level, max HP, and damage.
+- Clear and colorful display of player and NPC information during the game.
+
+### Libraries Used:
+- `random`: For generating random values for NPC attributes.
+- `colorama`: To add color to the text displayed in the terminal, enhancing readability.
+
+### How to Play:
+1. Run the script and enter the player's name when prompted.
+2. The game begins, and the player faces 5 battles against NPCs.
+3. The goal is to win at least 4 battles to win the game.
+4. The status of the player and NPCs is displayed after each battle, including HP, damage, and EXP.
+
+### Author:
+Gabriel Lourenço Tibério  
+GitHub: [https://github.com/gabrieltiberio](https://github.com/gabrieltiberio)
+
+### Date:
 September 9, 2024
 
-Version:
-1.1
+### Version:
+1.0
